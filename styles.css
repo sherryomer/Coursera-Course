@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial,Helvetica,sans-serif;
+}
+h1
+{
+	text-align: center;
+	font-size: 125%;
+}
+section
+{
+	position: relative;
+	width:100%;
+	padding: 20px;
+}
+p
+{
+	position: relative;
+	width: 100%;
+	clear:right;
+}
+div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.chicken
+{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 125%;
+    background-color: #FFB6C1;
+    border: 1px solid black;
+}
+.beef
+{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 125%;
+    background-color: #FFB6C1;
+}
+.sushi
+{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 125%;
+    background-color: #FFB6C1;
+}
+.content
+{
+	padding: 5px;
+    border: none;
+    background-color: gray;
+    color: black;
+    margin-left:auto;
+    margin-right: auto;
+    height: 150px;
+    overflow: auto;
+ }
+
+
+@media (min-width: 992px)
+{
+	.col-lg-4{
+		float: left;
+		width: 33.3%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-6{
+		float: left;
+		width:50%;
+		margin-right: auto;
+		margin-left: auto;
+		margi
+	}
+	.col-md-12{
+		float:left;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+}
